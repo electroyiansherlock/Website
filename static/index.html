@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <link rel = "stylesheet" href = "style.css" />
+    </head>
+
+    <body>
+        
+        <div class = "part">
+            <button class = "hide pricelist">PriceList</button>
+            <button class = "hide placeorder">PlaceOrder</button>
+            <button id = "newuser1" class= "hide newuser">New User</button>
+        </div>
+
+
+        <div class = "parent">
+            <div class = "child">
+                <form action = "/addname" method = "POST">
+                    <img id = "person" src = './images/person.jfif' />
+                    <p id = "close">+</p>
+                    <span class= "userinput">Username <input type = "text" name = "fname" placeholder="Enter your name" /></span>
+                    <span class= "userinput">Address <input type = "text" name = "address" placeholder="Enter your Address" /></span>
+                    <span class= "userinput">Email <input type = "text" name = "email" placeholder="Enter your Email Address" /></span>
+                    <span class= "userinput">Contact Details <input type = "text" name = "phone" placeholder="Enter your Mobile Number" /></span>
+                    <button id = "submit">Submit Details</button>
+                </form>
+            </div>
+        </div>
+
+        <!--
+            In each part there will be 3 things : 
+
+            -> image
+            -> paragraph description
+            -> Price
+
+            when mouse will over on them then a pop-up type
+            will appear
+
+            User details for the order (Form) will be there.
+            -> name, age, address, phone number (MONGO-DB)
+
+            --------------------------------------------------------
+
+        -- Displaying all the entries which are there in the data base (JINJA might use).
+        -- Popping-up the image whenever someone hover the mouse on the image of that
+        -- 
+
+
+
+
+
+        -->
+
+        <div class = "part1">
+
+            <div class = "card pizza">
+                
+                <img class = "pic" src = "./images/pizza.jfif" />
+                
+                <p class = "desc">Hot, cheesy pizza loaded with
+                     your favorite veggies is one of the most fun and easy dinners 
+                     to make at home. With just a few key tips you can create a 
+                     restaurant-quality crust, and treat yourself to the best 
+                     homemade pizza that’s completely customizable to your tastes.
+                     </p>
+
+                <p class = "pizza-cost">&#8377 99</p>
+                
+                
+            </div>
+
+            <div class = "card burger">
+
+                <img class = "pic" src = "./images/burger.jfif" />
+                
+                <p class = "desc">A hamburger (or burger for short) is a food, 
+                    typically considered a sandwich, consisting of one or more
+                     cooked patties—usually ground meat, typically beef—placed inside
+                      a sliced bread roll or bun. The patty may be pan fried,
+                       grilled, smoked or flame broiled. ... A hamburger topped with 
+                       cheese is called a cheeseburger.</p>
+
+                <p class = "pizza-cost">&#8377 45</p>
+
+
+            </div>
+
+            <div class = "card maggi">
+
+                <img class = "pic" src = "./images/maggi.jfif" />
+                
+                <p class = "desc">Maggi noodles are dried noodles fused with oil,
+                     and sold with a packet of flavorings. These noodles are
+                      usually eaten after being cooked in boiling water for 3 to 5
+                       minutes or eaten straight from the packet..</p>
+
+                <p class = "pizza-cost">&#8377 30</p>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class = "part2">
+
+            <div class = "card bathura">
+                
+                <img class = "pic" src = "./images/cbathure.jfif" />
+                
+                <p class = "desc">Chole bhature (Hindi: छोले भटूरे) is a food dish 
+                    popular in the Northern areas of the Indian subcontinent. It is 
+                    a combination of chana masala (spicy white chickpeas) and 
+                    bhatura/puri, a fried bread made from maida. ... Chole bhature 
+                    is often eaten as a breakfast dish, sometimes accompanied with 
+                    lassi.
+                </p>
+
+                <p class = "pizza-cost">&#8377 149</p>
+                
+                
+            </div>
+
+            <div class = "card kachori">
+
+                <img class = "pic" src = "./images/kachori.jfif" />
+                
+                <p class = "desc">Kachori is a spicy Indian snack shaped like a round
+                     flattened ball, consisting of a flour-based shell with different
+                      fillings. The most popular filling consists of yellow moong dal, 
+                      besan flour, pepper, chili powder, cumin seeds, and other spices..</p>
+
+                <p class = "pizza-cost">&#8377 65</p>
+
+
+            </div>
+
+            <div class = "card pavbhaji">
+
+                <img class = "pic" src = "./images/pavbhaji.jfif" />
+                
+                <p class = "desc">Pav bhaji is a spiced mixture of mashed vegetables
+                     in a thick gravy served with bread. Vegetables in the curry may
+                      commonly include potatoes, onions, carrots, chillies, peas, 
+                      bell peppers and tomatoes. Street sellers usually cook the
+                       curry on a flat griddle (tava) and serve the dish hot.</p>
+
+                <p class = "pizza-cost">&#8377 99</p>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- <button id = "press">Press it !!</button>
+
+        <div class = "admit">
+            <div class = "inside-admit">
+                
+                <!-- <p id = "close">+</p> -->
+    
+                <!-- <form action="">
+                    <input type = "text" name = "name" placeholder="Enter the politician name">
+                    <input type = "text" name = "age" placeholder="Enter the politician age">
+                    <input type = "text" name = "constituency" placeholder="Enter the politician's constituency">
+                    <button id = "inside-button">Submit info!</button>
+                </form>
+                
+            </div>
+    </div> --> -->
+
+
+    </body>
+
+    <script src = "part.js"></script>
+
+</html>

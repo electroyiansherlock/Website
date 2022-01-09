@@ -10,7 +10,8 @@
   "dependencies": {
     "express" : "*",
     "body-parser" : "*",
-    "mongoose" : "*"
+    "mongoose" : "*",
+    "bcrypt" : "^0.8.5"
   },
   "repository": {
     "type": "git",

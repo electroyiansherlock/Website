@@ -18,7 +18,7 @@ const schema = new mongoose.Schema({
 
 var foodDelivery = mongoose.model('foodDelivery', schema) ;
 
-app.get('', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(__dirname + '\\static' + '/index.html') ;
 })
 

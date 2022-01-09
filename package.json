@@ -1,0 +1,19 @@
+{
+  "name": "project-app",
+  "version": "1.0.0",
+  "description": "This app is using, HTML, CSS, MONGO, JS, EXPRESS, NODE, GIT/GITHUB, HEROKU. Taking the input from the user and saving the entry to the MONGODB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electroyiansherlock/Website.git"
+  },
+  "author": "Aryan Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/electroyiansherlock/Website/issues"
+  },
+  "homepage": "https://github.com/electroyiansherlock/Website#readme"
+}
